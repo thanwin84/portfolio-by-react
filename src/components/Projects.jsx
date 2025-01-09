@@ -35,7 +35,7 @@ const Projects = ({ className }) => {
                   className="text-center rounded-md flex-1 px-4 py-2 border text-slate-200 hover:bg-zinc-100 hover:text-slate-800"
                   href={project.repoLink}
                 >
-                  Live Demo
+                  Github Repo
                 </a>
               </div>
             </div>
