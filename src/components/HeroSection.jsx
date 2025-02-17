@@ -9,13 +9,13 @@ const HeroSection = ({ className }) => {
   return (
     <section
       id="ABOUT ME"
-      className={` flex gap-10  justify-between  ${className}`}
+      className={`bg-gradient-to-r from-black via-neutral-900 to-transparent flex gap-10  justify-between border border-blue-800 rounded-3xl p-6 ${className}`}
     >
       <div className="text-center flex-1 space-y-4 my-auto">
         <span className="font-nunita text-2xl text-slate-300 font-semibold">
           Hi, I am
         </span>
-        <p className="text-5xl font-oswald font-bold tracking-widest text-blue-300">
+        <p className="text-5xl font-oswald font-bold tracking-widest bg-gradient-to-r from-cyan-500 via-blue-500 to-blue-700 bg-clip-text text-transparent">
           Than Win Hline
         </p>
         <ul className="text-lg flex  justify-center text-slate-200">

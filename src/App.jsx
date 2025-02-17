@@ -12,7 +12,7 @@ function App() {
       <HeroSection className="w-[85%] mt-16 mx-auto" />
       <Educations className="w-[85%] mt-10 mx-auto" />
       <Projects className="w-[85%] mt-10 mx-auto" />
-      <Contact className="w-[40%] mt-10 mx-auto" />
+      <Contact className="w-[80%] lg:w-[40%]  mt-10 mx-auto" />
       <Footer className="w-[40%] mt-10 mx-auto" />
     </main>
   );

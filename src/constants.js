@@ -1,4 +1,4 @@
-import careerConnect from './assets/images/project-career-connect.png';
+import careerConnect from './assets/images/careect-connect-home.png';
 import porfolio from './assets/images/project-portfolio.png';
 import pandaEats from './assets/images/project-pandaeats.png';
 export const navLinks = ['ABOUT ME', 'EDUCATION', 'PROJECTS', 'CONTACT'];

@@ -3,13 +3,13 @@ import { projects } from '../constants';
 const Projects = ({ className }) => {
   return (
     <section id="PROJECTS" className={` ${className}`}>
-      <h2 className="mb-4 text-3xl font-oswald font-bold text-center text-blue-400 tracking-wide">
+      <h2 className="mb-4 text-3xl font-oswald font-bold text-center bg-gradient-to-r from-cyan-500 via-blue-500 to-blue-700 bg-clip-text text-transparent tracking-wide">
         Projects
       </h2>
-      <ul className="flex gap-4 mt-4 font-nunita">
+      <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 font-nunita">
         {projects.map((project) => (
           <li
-            className="bg-zinc-800  shadow-md px-4 py-4 hover:scale-105 rounded-md"
+            className="bg-neutral-800  shadow-md px-4 py-4 hover:scale-105 rounded-md"
             key={project.title}
           >
             <img
