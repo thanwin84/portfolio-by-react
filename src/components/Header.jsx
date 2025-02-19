@@ -1,8 +1,9 @@
+import MobileNavigation from './MobileNavigation';
 import Navigation from './Navigation';
 
 const Header = ({ className }) => {
   return (
-    <header className={`sticky  flex justify-between ${className}`}>
+    <header className={`flex justify-between ${className}`}>
       <div>
         <h1 className="text-slate-100 font-bold font-oswald text-xl tracking-widest">
           Than Win Hline
@@ -11,7 +12,8 @@ const Header = ({ className }) => {
           FULLSTACK DEVELOPER
         </span>
       </div>
-      <Navigation />
+      <Navigation className="hidden md:flex" />
+      <MobileNavigation />
     </header>
   );
 };

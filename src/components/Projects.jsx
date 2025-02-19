@@ -1,4 +1,5 @@
 import { projects } from '../constants';
+import { motion } from 'motion/react';
 
 const Projects = ({ className }) => {
   return (
@@ -6,10 +7,15 @@ const Projects = ({ className }) => {
       <h2 className="mb-4 text-3xl font-oswald font-bold text-center bg-gradient-to-r from-cyan-500 via-blue-500 to-blue-700 bg-clip-text text-transparent tracking-wide">
         Projects
       </h2>
-      <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 font-nunita">
+      <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4 font-nunita">
         {projects.map((project) => (
-          <li
-            className="bg-neutral-800  shadow-md px-4 py-4 hover:scale-105 rounded-md"
+          <motion.li
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            className="bg-neutral-800   px-4 py-4  rounded-md  hover:shadow-md hover:shadow-blue-400"
             key={project.title}
           >
             <img
@@ -39,7 +45,7 @@ const Projects = ({ className }) => {
                 </a>
               </div>
             </div>
-          </li>
+          </motion.li>
         ))}
       </ul>
     </section>

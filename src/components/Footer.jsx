@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="flex flex-col items-center md:items-end md:flex-row justify-between">
         <ul className="flex gap-2 text-sm text-slate-400 ">
           {navLinks.map((link) => (
-            <li className="hover:text-slate-100">
+            <li key={link} className="hover:text-slate-100">
               <a href={`#${link}`}>{link}</a>
             </li>
           ))}
