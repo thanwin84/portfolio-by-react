@@ -19,7 +19,7 @@ export const projects = [
   {
     title: 'Career Connect',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reprehenderit maiores facere nihil necessitatibus ab',
+      'Full-stack job search platform with custom UI components, 2FA via Twilio, user authentication, job search, profile management, and admin dashboard.',
     liveDemoLink: 'https://career-connect-frontend-1kvx.onrender.com',
     repoLink: 'https://github.com/thanwin84/career-connect',
     imgUrl: careerConnect,
@@ -27,7 +27,7 @@ export const projects = [
   {
     title: 'Porfolio',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reprehenderit maiores facere nihil necessitatibus ab',
+      'Showcase of my projects and skills with a responsive design, interactive elements, and smooth animations.',
     liveDemoLink: 'https://career-connect-frontend-1kvx.onrender.com',
     repoLink: 'https://github.com/thanwin84/career-connect',
     imgUrl: porfolio,
@@ -35,7 +35,7 @@ export const projects = [
   {
     title: 'PandaEats',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reprehenderit maiores facere nihil necessitatibus ab',
+      'Developed a responsive full-stack food ordering application with Auth0 authentication, real-time order tracking and  Stripe payments.',
     liveDemoLink: 'https://mern-pandaeats-frontend.onrender.com',
     repoLink: 'https://github.com/thanwin84/pandaeats-frontend',
     imgUrl: pandaEats,

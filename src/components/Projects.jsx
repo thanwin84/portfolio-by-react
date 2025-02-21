@@ -15,7 +15,7 @@ const Projects = ({ className }) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="bg-neutral-800   px-4 py-4  rounded-md  hover:shadow-md hover:shadow-blue-400"
+            className="bg-neutral-800   px-4 py-4   rounded-md  hover:shadow-md hover:shadow-blue-400"
             key={project.title}
           >
             <img
@@ -23,22 +23,24 @@ const Projects = ({ className }) => {
               src={project.imgUrl}
               alt={project.title}
             />
-            <div className="mt-4">
-              <h2 className="text-xl font-semibold font-oswald text-slate-200">
-                {project.title}
-              </h2>
-              <p className="font-nunita text-slate-400">
-                {project.description}
-              </p>
-              <div className="flex gap-4 mt-4">
+            <div className="mt-4   flex flex-col justify-between gap-4 h-48 ">
+              <div className="space-y-2">
+                <h2 className="text-xl font-semibold font-oswald text-slate-200">
+                  {project.title}
+                </h2>
+                <p className="font-nunita text-slate-400">
+                  {project.description}
+                </p>
+              </div>
+              <div className="flex gap-3">
                 <a
-                  className="text-center rounded-md flex-1 px-4 py-2 border text-slate-200 hover:bg-zinc-100 hover:text-slate-800 "
+                  className="w-full text-center  rounded-md flex-1 px-4 py-2 border text-slate-200 hover:bg-zinc-100 hover:text-slate-800 "
                   href={project.liveDemoLink}
                 >
                   Live Demo
                 </a>
                 <a
-                  className="text-center rounded-md flex-1 px-4 py-2 border text-slate-200 hover:bg-zinc-100 hover:text-slate-800"
+                  className="w-full text-center rounded-md flex-1 px-4 py-2 border text-slate-200 hover:bg-zinc-100 hover:text-slate-800"
                   href={project.repoLink}
                 >
                   Github Repo
