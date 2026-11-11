@@ -5,8 +5,9 @@ export const navLinks = ['ABOUT ME', 'EDUCATION', 'PROJECTS', 'CONTACT'];
 export const educationHistory = [
   {
     schoolName: "Chang'an University",
-    durationYear: '2023-Present',
+    durationYear: 'Started 2023',
     department: 'Computer Science and Technology',
+    status: 'Discontinued',
   },
   {
     schoolName: 'Ningbo University of Technology',
